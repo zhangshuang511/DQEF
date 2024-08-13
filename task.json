@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Amazon-Google",
+    "category": ["0", "1"],
+    "trainset": "data/Amazon-Google/train.txt",
+    "validset": "data/Amazon-Google/valid.txt",
+    "testset": "data/Amazon-Google/test.txt"
+  },
+  {
+    "name": "Walmart-Amazon",
+    "category": ["0", "1"],
+    "trainset": "data/Walmart-Amazon/train.txt",
+    "validset": "data/Walmart-Amazon/valid.txt",
+    "testset": "data/Walmart-Amazon/test.txt"
+  },
+  {
+    "name": "DBLP-ACM",
+    "category": ["0", "1"],
+    "trainset": "data/DBLP-ACM/train.txt",
+    "validset": "data/DBLP-ACM/valid.txt",
+    "testset": "data/DBLP-ACM/test.txt"
+  },
+  {
+    "name": "DBLP-Scholar",
+    "category": ["0", "1"],
+    "trainset": "data/DBLP-Scholar/train.txt",
+    "validset": "data/DBLP-Scholar/valid.txt",
+    "testset": "data/DBLP-Scholar/test.txt"
+  },
+  {
+    "name": "Dirty/DBLP-ACM",
+    "category": ["0", "1"],
+    "trainset": "data/Dirty/DBLP-ACM/train.txt",
+    "validset": "data/Dirty/DBLP-ACM/valid.txt",
+    "testset": "data/Dirty/DBLP-ACM/test.txt"
+  },
+  {
+    "name": "Dirty/DBLP-Scholar",
+    "category": ["0", "1"],
+    "trainset": "data/Dirty/DBLP-Scholar/train.txt",
+    "validset": "data/Dirty/DBLP-Scholar/valid.txt",
+    "testset": "data/Dirty/DBLP-Scholar/test.txt"
+  },
+  {
+    "name": "Dirty/Walmart-Amazon",
+    "category": ["0", "1"],
+    "trainset": "data/Dirty/Walmart-Amazon/train.txt",
+    "validset": "data/Dirty/Walmart-Amazon/valid.txt",
+    "testset": "data/Dirty/Walmart-Amazon/test.txt"
+  }
+]
