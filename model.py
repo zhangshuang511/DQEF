@@ -23,12 +23,7 @@ class Classifer(nn.Module):
         logits = logits[:, 0]
         pos_mask = (y == 1)
         pos_logits = logits[pos_mask]
-        if pos_logits.numel() > 0:
-            pos_loss = pos_logits.mean(dim=-1)
-            pos_loss = torch.log(pos_loss)
-        else:
-            pos_loss = torch.tensor(0.0, device=self.device)
-        
+        pos_loss = pos_logits.mean(dim=-1) if pos_logits.numel() > 0 else torch.tensor(0.0, device=self.device)
         return pos_loss, zs
 
 class TranHGAT(nn.Module):
