@@ -1,6 +1,7 @@
 # DQEF
 
 This is the implementation of "Unveiling Hidden Gems: Enhancing Entity Resolution with a Data Perspective"
+
 We implement our Data Quality Enhancement Framework (DQEF) on the HierGAT model.
 ## Environment
 
