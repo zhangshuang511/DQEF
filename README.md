@@ -7,8 +7,6 @@ We implement our Data Quality Enhancement Framework (DQEF) on the HierGAT model.
 
 * Python 3.7
 * PyTorch 1.4
-* HuggingFace Transformers
-* NLTK (for 1-N ER problem)
 
 ## Train
 
